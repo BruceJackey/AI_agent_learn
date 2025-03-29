@@ -1,0 +1,133 @@
+{
+    "city": "上海",
+    "days": 3,
+    "base路线": {
+        "base_guide": "### 上海3天旅游攻略\n\n#### 第1天：经典文化之旅\n- **上午**：从历史悠久的**城隍庙**开始你的旅程，感受古色古香的建筑和传统文化。\n- **中午**：在附近的**豫园**享用午餐，尝试一些地道的上海小吃如小笼包、生煎包。\n- **下午**：游览**上海老街**，体验老上海的生活氛围，购买一些手工艺品作为纪念。\n- **傍晚**：前往**外滩**，欣赏浦江两岸的美景，晚上可以乘坐**浦江夜游**船，从水上视角看上海的繁华。\n- **晚上**：结束夜游后，沿着**南京路**步行街逛逛，享受购物的乐趣，品尝各种美食。\n\n#### 第2天：现代都市探索\n- **上午**：参观**东方明珠塔**，登顶俯瞰整个上海的壮观景色。\n- **中午**：在陆家嘴金融区享用午餐，体验高端餐饮服务。\n- **下午**：参观**上海博物馆**或**上海科技馆**，了解上海的历史文化和科技进步。\n- **晚上**：选择一家有特色的餐厅享用晚餐，推荐尝试**红烧肉**、**葱油拌面**等经典上海菜肴。\n\n#### 第3天：休闲娱乐\n- **全天**：前往**上海迪士尼度假区**，享受一天的欢乐时光。无论是大人还是小孩都能在这里找到乐趣。\n- **晚上**：返回市区，可以选择在**新天地**区域的酒吧或咖啡厅放松一下，享受夜晚的宁静。\n\n### 注意事项\n- 门票人均花费约600元，食宿一天人均700元左右（中档）。\n- 提前预订门票和住宿，避免高峰期排队等候。\n- 注意个人财物安全，尤其是在人多的地方。\n- 体验当地美食时，注意饮食卫生。\n\n希望这个攻略能帮助你在上海度过愉快的三天！"
+    },
+    "景点": [
+        {
+            "name": "上海外滩",
+            "describe": "著名的滨江风景区，可以欣赏到黄浦江两岸的美丽景色和历史建筑",
+            "图片url": "https://img95.699pic.com/photo/50055/3997.jpg_wh860.jpg"
+        },
+        {
+            "name": "南外滩轻纺面料市场",
+            "describe": "一个大型的纺织品批发市场，适合购物和了解当地纺织业",
+            "图片url": "https://img1.qunarzz.com/travel/poi/1512/bb/31c1aa06acdf89f7.jpg_r_640x426x70_3fb439dd.jpg"
+        },
+        {
+            "name": "豫园",
+            "describe": "一座具有明代风格的古典园林，内有精美的亭台楼阁和传统建筑",
+            "图片url": "https://img95.699pic.com/photo/50105/1731.jpg_wh860.jpg"
+        },
+        {
+            "name": "东方明珠",
+            "describe": "上海的标志性建筑之一，拥有观景台可以俯瞰整个城市",
+            "图片url": "https://pic.ibaotu.com/01/53/00/83i888piCH5Z.jpg-0.jpg!ww7002"
+        },
+        {
+            "name": "上海迪士尼",
+            "describe": "世界级的主题公园，适合家庭游玩，有多个主题园区和娱乐项目",
+            "图片url": "https://gd-hbimg.huaban.com/b89fce062c88b3b54486eb6bc12679f7ded75819714e9-nObPPy_fw658"
+        },
+        {
+            "name": "上海城隍庙",
+            "describe": "历史悠久的道教寺庙，周围有许多小吃和手工艺品店",
+            "图片url": "https://n.sinaimg.cn/sinacn10111/150/w2000h1350/20200206/24d5-inzcrxs9009303.jpg"
+        },
+        {
+            "name": "上海老街",
+            "describe": "一条保留了传统上海风貌的老街，可以品尝到地道的小吃和购买特色商品",
+            "图片url": "https://youimg1.c-ctrip.com/target/0103k120008c4lc665714_W_10000_1200.jpg?proc=autoorient"
+        },
+        {
+            "name": "南京路",
+            "describe": "著名的商业街，汇集了众多国际品牌和本地商店",
+            "图片url": "https://pic.616pic.com/photoone/00/06/67/61975e8578c705632.jpg"
+        },
+        {
+            "name": "上海野生动物园",
+            "describe": "一个大型的野生动物园，可以近距离观察各种珍稀动物",
+            "图片url": "http://youimg1.c-ctrip.com/target/tg/697/799/808/8da3013242eb4130965cf2d754a66eae.jpg"
+        },
+        {
+            "name": "上海迪士尼度假区",
+            "describe": "集主题公园、酒店、餐饮于一体的综合性旅游度假区",
+            "图片url": "https://youimg1.c-ctrip.com/target/10051f000001gsqk8D0BC_D_10000_1200.jpg?proc=autoorient"
+        },
+        {
+            "name": "东方明珠广播电视塔",
+            "describe": "上海的地标性建筑，拥有多个观景平台和展览空间",
+            "图片url": "https://img.redocn.com/sheying/20180223/dongfangmingzhudianshitajinshe_9215049.jpg"
+        },
+        {
+            "name": "陆家嘴",
+            "describe": "上海的金融中心，高楼林立，是现代都市的象征",
+            "图片url": "https://img95.699pic.com/photo/50770/1381.jpg_wh860.jpg"
+        }
+    ],
+    "美食": [
+        {
+            "name": "小笼包",
+            "describe": "上海著名的特色小吃，皮薄馅嫩，汤汁丰富。",
+            "图片url": "http://gs.cnr.cn/gslv/xc/20150701/W020150701437937282794.jpg"
+        },
+        {
+            "name": "煎饺",
+            "describe": "上海人熟悉的街头小吃，外皮香脆，内馅鲜美。",
+            "图片url": "http://n.sinaimg.cn/sinacn/w1200h797/20171206/1b64-fypikwu2654347.jpg"
+        },
+        {
+            "name": "红烧肉",
+            "describe": "上海经典菜肴，肉质软糯，色泽红亮，味道鲜美。",
+            "图片url": "http://cp1.douguo.net/upload/caiku/7/1/a/yuan_71d34bf58a46b5083aa0a56a13c8a2fa.jpg"
+        },
+        {
+            "name": "排骨年糕",
+            "describe": "将排骨与年糕结合的特色小吃，口感丰富。",
+            "图片url": "https://pic1.zhimg.com/v2-bcad885d3bf4363709dcb8b4966f9cec_r.jpg"
+        },
+        {
+            "name": "黄蟹壳",
+            "describe": "并非用蟹肉制作，而是外形类似蟹壳的小吃。",
+            "图片url": "https://pic1.zhimg.com/v2-e6597a79b448f7b252e2a1293f810148_1440w.jpg?source=172ae18b"
+        },
+        {
+            "name": "葱面",
+            "describe": "以葱为主要调料的面条，味道鲜美。",
+            "图片url": "https://i2.chuimg.com/5a2cf2b6c6274421ad829c6c8b80fcb6_960w_960h.jpg?imageView2/2/w/660/interlace/1/q/90"
+        },
+        {
+            "name": "鲜肉月饼",
+            "describe": "苏式月饼的一种，中秋节节令食品，馅料为鲜肉。",
+            "图片url": "https://img.phb123.com/uploads/allimg/220922/812-2209221443320-L.jpg"
+        },
+        {
+            "name": "生煎包",
+            "describe": "上海的传统小吃，外皮酥脆，内馅鲜美。",
+            "图片url": "http://i2.chuimg.com/fba430347d8941e8a9c2453eb6e8b068_1000w_750h.jpg?imageView2/2/w/660/interlace/1/q/90"
+        },
+        {
+            "name": "擂沙圆",
+            "describe": "乔家栅点心店的传统点心，煮熟的汤团外裹干豆沙粉。",
+            "图片url": "https://pica.zhimg.com/v2-ef8e0ba3d3ec31ae55434c2ce9fa513a_720w.jpg?source=172ae18b"
+        },
+        {
+            "name": "蟹壳黄",
+            "describe": "上海的特色小吃，外形类似蟹壳，口感香脆。",
+            "图片url": "https://pic1.zhimg.com/v2-e6597a79b448f7b252e2a1293f810148_1440w.jpg?source=172ae18b"
+        }
+    ],
+    "美食店铺": [
+        {
+            "name": "小楊生煎",
+            "describe": "上海特色小吃的代表之一，生煎包皮脆肉鲜，价格实惠。",
+            "图片url": "https://youimg1.c-ctrip.com/target/100e180000014h26w1B85.jpg"
+        },
+        {
+            "name": "乔家栅点心店",
+            "describe": "上海市著名的老字号点心店，以擂沙圆等传统点心闻名。",
+            "图片url": "http://youimg1.c-ctrip.com/target/10080h0000008zyv34C36.jpg"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="query-section" class="section">
+    <div class="card mb-4">
+        <div class="card-header bg-success text-white">
+            <h5>旅游规划查询</h5>
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <label for="user-query" class="form-label">请输入您的旅游需求：</label>
+                <textarea class="form-control" id="user-query" rows="3" placeholder="例如：我想去北京玩3天"></textarea>
+            </div>
+            <button class="btn btn-primary" onclick="processQuery()">生成旅游计划</button>
+        </div>
+    </div>
+    
+    <div id="query-result" class="card" style="display:none;">
+        <div class="card-header bg-secondary text-white">
+            <h5>规划结果</h5>
+        </div>
+        <div class="card-body">
+            <div id="intent-result" class="mb-3"></div>
+            <div id="itinerary-preview" class="mb-3"></div>
+            <button class="btn btn-success" onclick="downloadItinerary()">下载完整攻略</button>
+        </div>
+    </div>
+</div>
+
+<div id="optimization-section" class="section" style="display:none;">
+    <div class="card mb-4">
+        <div class="card-header bg-warning text-dark">
+            <h5>行程优化</h5>
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <label for="optimization-city" class="form-label">城市：</label>
+                <input type="text" class="form-control" id="optimization-city">
+            </div>
+            <div class="mb-3">
+                <label for="optimization-days" class="form-label">天数：</label>
+                <input type="number" class="form-control" id="optimization-days">
+            </div>
+            <div class="mb-3">
+                <label for="optimization-feedback" class="form-label">您的反馈意见：</label>
+                <textarea class="form-control" id="optimization-feedback" rows="3"></textarea>
+            </div>
+            <button class="btn btn-warning" onclick="submitOptimization()">提交优化</button>
+        </div>
+    </div>
+    
+    <div id="optimization-result" class="card" style="display:none;">
+        <div class="card-header bg-secondary text-white">
+            <h5>优化结果</h5>
+        </div>
+        <div class="card-body">
+            <div id="optimized-itinerary"></div>
+            <button class="btn btn-success" onclick="downloadOptimizedItinerary()">下载优化版攻略</button>
+        </div>
+    </div>
+</div>
+
+<div id="history-section" class="section" style="display:none;">
+    <div class="card">
+        <div class="card-header bg-info text-white">
+            <h5>历史记录</h5>
+        </div>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>城市</th>
+                        <th>天数</th>
+                        <th>生成时间</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody id="history-list">
+                    <!-- 历史记录将通过JavaScript动态加载 -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
